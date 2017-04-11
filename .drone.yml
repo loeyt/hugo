@@ -4,9 +4,9 @@ pipeline:
     image: plugins/docker
     repo: loeyt/hugo
     tags:
-      - latest
-      - 0.20.0
-      - 0.20
+      - "latest"
+      - "0.20.0"
+      - "0.20"
     when:
       branch: master
       event: push
